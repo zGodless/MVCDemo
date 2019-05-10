@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    string schoolName = "谢谢学校";
+    Layout = null;
+}
+@if (1 == 1)
+{
+    <text> wwwwwww</text>
+    @:llllll
+}
+
+@using MvcViewApp.Models
+@model MvcViewApp.Models.User
+<h2>百晓生兵器谱排行</h2>
+<p>第一名：@ViewData["One"]</p>
+<p>第二名：@ViewBag.Two</p>
+<p>第三名：@Model.Name</p>
+<p>第四名：@TempData["Four"]</p>
+<span> @(schoolName).@Request.RawUrl</span>
+<span> @schoolName 信息系</span>
+@*<script>
+    alert('@Ajax.JavaScriptStringEncode("xiaoli")');
+</script>*@
