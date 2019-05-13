@@ -1,15 +1,34 @@
 ﻿@{
     ViewBag.Title = "Home Page";
     string schoolName = "谢谢学校";
-    Layout = null;
+    Layout = "~/Views/Shared/ViewTemplate.cshtml";
 }
 @if (1 == 1)
 {
     <text> wwwwwww</text>
     @:llllll
 }
-
+@{
+    string htt = "<p> hello!!!!</p>";
+    @htt
+    @Html.Raw("<p>hello!!!!!</p>")
+    HtmlString st = new HtmlString("<p>Hello!!!!!</p>");
+    @st
+    var strhtml = MvcHtmlString.Create("<p> hellolooooo</p>")
+        ;@strhtml
+    @helper List(List<string> dogs)
+        {
+        <ul>
+            @foreach (string s in dogs)
+            {
+                <li> @s</li>
+            }
+        </ul>
+        } 
+    @List(new List<string>(){"dlksjfsld", "dflksjdewuroweur", ",.msv.mx.cvm"})
+}
 @using MvcViewApp.Models
+@using StackExchange.Profiling;
 @model MvcViewApp.Models.User
 <h2>百晓生兵器谱排行</h2>
 <p>第一名：@ViewData["One"]</p>
@@ -18,6 +37,9 @@
 <p>第四名：@TempData["Four"]</p>
 <span> @(schoolName).@Request.RawUrl</span>
 <span> @schoolName 信息系</span>
-@*<script>
-    alert('@Ajax.JavaScriptStringEncode("xiaoli")');
-</script>*@
+@MiniProfiler.Current.RenderIncludes();
+<script>
+</script>
+
+@section footer
+{<b>这是我的脚！！！￥</b>}

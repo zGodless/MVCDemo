@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+<div>
+</div>
+@RenderBody()
+</body>
+</html>
+<footer>
+    @if (IsSectionDefined("footer"))
+    {
+        @RenderSection("footer")
+    }
+    else
+    { 
+        <p>你没有脚！！！</p>
+    }
+</footer>
