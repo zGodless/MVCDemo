@@ -1,0 +1,32 @@
+﻿@model MvcControllerApp.Models.Customers
+@{
+    ViewBag.Title = "this is a title!!!!!";
+}
+<div>@Model.ContactName</div>
+@using (Html.BeginForm("UpdateCustomerInfo1", "Home"))
+{
+    @Html.TextBoxFor(x => x.ContactName)
+    <input type="submit" value="修改"/>
+}
+@using (Html.BeginForm("GetCustomerInfo", "Home", FormMethod.Get))
+{
+    @Html.TextBoxFor(x => x.ContactName)
+    @Html.TextAreaFor(x => x.CompanyName)
+    <input type="submit" value="Get"/>
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateCustomerInfo</title>
+</head>
+<body>
+    <div> 
+    </div>
+</body>
+</html>
