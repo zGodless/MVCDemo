@@ -1,0 +1,14 @@
+D:\MVC\ModelFirst\bin\Debug\ModelFirst.exe.config
+D:\MVC\ModelFirst\bin\Debug\ModelFirst.exe
+D:\MVC\ModelFirst\bin\Debug\ModelFirst.pdb
+D:\MVC\ModelFirst\bin\Debug\EntityFramework.dll
+D:\MVC\ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC\ModelFirst\bin\Debug\EntityFramework.xml
+D:\MVC\ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC\ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MVC\ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MVC\ModelFirst\obj\Debug\ModelFirst.csprojAssemblyReference.cache
+D:\MVC\ModelFirst\obj\Debug\ModelFirst.csproj.CoreCompileInputs.cache
+D:\MVC\ModelFirst\obj\Debug\ModelFirst.csproj.CopyComplete
+D:\MVC\ModelFirst\obj\Debug\ModelFirst.exe
+D:\MVC\ModelFirst\obj\Debug\ModelFirst.pdb

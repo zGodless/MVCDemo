@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MVCTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MVCTestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customer" EntityType="MVCTestModel.Customer" />
+    <EntitySet Name="ProductSet" EntityType="MVCTestModel.Product" />
+    <AssociationSet Name="CustomerProduct" Association="MVCTestModel.CustomerProduct">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Product" EntitySet="ProductSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="32" />
+    <Property Name="Telephone" Type="String" Nullable="false" MaxLength="11" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" />
+    <Property Name="Age" Type="String" Nullable="false" MaxLength="3" />
+    <NavigationProperty Name="Product" Relationship="MVCTestModel.CustomerProduct" FromRole="Customer" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Property1" Type="String" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="MVCTestModel.CustomerProduct" FromRole="Product" ToRole="Customer" />
+  </EntityType>
+  <Association Name="CustomerProduct">
+    <End Type="MVCTestModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="MVCTestModel.Product" Role="Product" Multiplicity="1" />
+  </Association>
+</Schema>
