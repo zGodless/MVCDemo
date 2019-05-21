@@ -11,3 +11,17 @@ D:\MVC学习\EFCRUD\obj\Debug\EFCRUD.csproj.CoreCompileInputs.cache
 D:\MVC学习\EFCRUD\obj\Debug\EFCRUD.csproj.CopyComplete
 D:\MVC学习\EFCRUD\obj\Debug\EFCRUD.exe
 D:\MVC学习\EFCRUD\obj\Debug\EFCRUD.pdb
+D:\MVC\EFCRUD\bin\Debug\EFCRUD.exe.config
+D:\MVC\EFCRUD\bin\Debug\EFCRUD.exe
+D:\MVC\EFCRUD\bin\Debug\EFCRUD.pdb
+D:\MVC\EFCRUD\bin\Debug\EntityFramework.dll
+D:\MVC\EFCRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC\EFCRUD\bin\Debug\EntityFramework.xml
+D:\MVC\EFCRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC\EFCRUD\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MVC\EFCRUD\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MVC\EFCRUD\obj\Debug\EFCRUD.csprojAssemblyReference.cache
+D:\MVC\EFCRUD\obj\Debug\EFCRUD.csproj.CoreCompileInputs.cache
+D:\MVC\EFCRUD\obj\Debug\EFCRUD.csproj.CopyComplete
+D:\MVC\EFCRUD\obj\Debug\EFCRUD.exe
+D:\MVC\EFCRUD\obj\Debug\EFCRUD.pdb

@@ -11,3 +11,17 @@ D:\MVC学习\EFDemo\obj\Debug\EFDemo.csproj.CoreCompileInputs.cache
 D:\MVC学习\EFDemo\obj\Debug\EFDemo.csproj.CopyComplete
 D:\MVC学习\EFDemo\obj\Debug\EFDemo.exe
 D:\MVC学习\EFDemo\obj\Debug\EFDemo.pdb
+D:\MVC\EFDemo\bin\Debug\EFDemo.exe.config
+D:\MVC\EFDemo\bin\Debug\EFDemo.exe
+D:\MVC\EFDemo\bin\Debug\EFDemo.pdb
+D:\MVC\EFDemo\bin\Debug\EntityFramework.dll
+D:\MVC\EFDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC\EFDemo\bin\Debug\EntityFramework.xml
+D:\MVC\EFDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC\EFDemo\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MVC\EFDemo\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MVC\EFDemo\obj\Debug\EFDemo.csprojAssemblyReference.cache
+D:\MVC\EFDemo\obj\Debug\EFDemo.csproj.CoreCompileInputs.cache
+D:\MVC\EFDemo\obj\Debug\EFDemo.csproj.CopyComplete
+D:\MVC\EFDemo\obj\Debug\EFDemo.exe
+D:\MVC\EFDemo\obj\Debug\EFDemo.pdb
