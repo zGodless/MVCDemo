@@ -20,7 +20,7 @@ namespace MvcViewApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-           
+            MvcHandler.DisableMvcResponseHeader = true;
              MiniProfilerEF6.Initialize();
              MiniProfiler.Configure(new MiniProfilerOptions
              {

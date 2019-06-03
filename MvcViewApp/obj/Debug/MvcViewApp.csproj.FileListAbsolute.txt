@@ -199,3 +199,4 @@ D:\MVC\MvcViewApp\obj\Debug\MvcViewApp.csproj.CoreCompileInputs.cache
 D:\MVC\MvcViewApp\obj\Debug\MvcViewApp.csproj.CopyComplete
 D:\MVC\MvcViewApp\obj\Debug\MvcViewApp.dll
 D:\MVC\MvcViewApp\obj\Debug\MvcViewApp.pdb
+D:\MVC\MvcViewApp\obj\Debug\MvcViewApp.csprojAssemblyReference.cache

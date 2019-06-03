@@ -13,5 +13,13 @@ namespace MvcViewApp.Areas.Admin.Controllers
         {
             return View();
         }
+
+        [OutputCache(Duration = 10, VaryByParam = "haha")]
+        public ActionResult outputCache()
+        {
+            ViewBag.Now = DateTime.Now.ToString();
+            Response.Cache.SetOmitVaryStar(true);
+            return View();
+        }
     }
 }
